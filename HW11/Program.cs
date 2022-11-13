@@ -155,6 +155,7 @@ Console.WriteLine();
 int[,] myArray3 = MultiplyMatrix(myArray1, myArray2, 2,2);
 Show2dArray(myArray3);
 */
+
 int [,] MultiplyMatrix(int[,] myArray1, int[,] myArray2, int minValue,int maxValue)
 {
   int[,] resultMatrix = new int[minValue, maxValue];
@@ -174,7 +175,8 @@ int [,] MultiplyMatrix(int[,] myArray1, int[,] myArray2, int minValue,int maxVal
   return resultMatrix;
 }
 
-
+//Задача 62. Напишите программу, которая заполнит спирально массив 4 на 4.
+//Например, на выходе получается вот такой массив:
 int [,] SquareMassiv(int num)
 {
     int [,] array = new int[num,num];
